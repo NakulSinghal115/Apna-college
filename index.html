@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button{
+            background-color:  blue;
+        }
+    </style>
 </head>
 <body>
    <p> hello <p>
-
+   <button id="btn">Click me</button>
     <br><br>
+    
 </body>
+<script>
+let btn = document.getElementById("btn");
+btn.addEventListener("click", function(){
+    alert("Button clicked");
+})
+    
+</script>
 </html>
